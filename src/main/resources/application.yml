@@ -1,0 +1,21 @@
+server:
+  port: 8888
+management:
+  endpoints:
+    web:
+      base-path: "/admin"
+      exposure:
+        include: "*"
+  endpoint:
+    env:
+      post:
+        enabled: true
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rodrigoalmeida/example-config-server-repo
+          basedir: target/config
+          default-label: main
+
