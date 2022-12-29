@@ -10,6 +10,9 @@ management:
     env:
       post:
         enabled: true
+logging:
+  level:    
+    org.springframework.cloud: 'DEBUG'
 spring:
   cloud:
     config:
@@ -18,4 +21,6 @@ spring:
           uri: https://github.com/rodrigoalmeida/example-config-server-repo
           basedir: target/config
           default-label: main
+          search-paths:
+          - 'config-server-app*'
 
