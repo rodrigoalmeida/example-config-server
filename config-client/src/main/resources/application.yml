@@ -1,0 +1,16 @@
+app:
+  message: 'Olá mundo'
+  name: 'client01'
+logging:
+  level:
+    br.com.rodrigoaralmeida.examples: debug
+spring:
+  application:
+    name: 'client01'
+  config:
+    import:
+    - optional:configserver:http://localhost:8888
+  # cloud:
+  #   config:
+  #     profile: dev
+    

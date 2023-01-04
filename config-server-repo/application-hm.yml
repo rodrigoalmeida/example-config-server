@@ -1,0 +1,4 @@
+my.prop: 'hm prop'
+app:
+  message: 'Olá mundo'
+  name: 'client HM'

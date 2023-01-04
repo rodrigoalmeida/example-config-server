@@ -1,0 +1,4 @@
+my.prop: 'dev prop'
+app:
+  message: 'Olá mundo'
+  name: 'client DEV'

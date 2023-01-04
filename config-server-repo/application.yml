@@ -1,0 +1,4 @@
+my.prop: 'default prop'
+app:
+  message: 'Olá mundo'
+  name: 'client default'
