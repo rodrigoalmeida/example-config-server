@@ -1,4 +1,4 @@
 my.prop: 'hm prop'
 app:
   message: 'Olá mundo'
-  name: 'client HM'
+  name: 'client em ambiente de homologação'

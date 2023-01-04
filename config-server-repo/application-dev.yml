@@ -1,4 +1,4 @@
 my.prop: 'dev prop'
 app:
   message: 'Olá mundo'
-  name: 'client DEV'
+  name: 'client em em ambiente de desenvolvimento'

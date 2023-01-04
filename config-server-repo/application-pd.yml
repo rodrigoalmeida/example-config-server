@@ -1,4 +1,4 @@
 my.prop: 'pd prop'
 app:
   message: 'Olá mundo'
-  name: 'client PD'
+  name: 'client em ambiente de produção'
